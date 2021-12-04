@@ -1,0 +1,28 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node",
+    "helloworld": "npx ts-node ./src/helloworld.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndrader/advent-of-code-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndrader/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/ndrader/advent-of-code-2021#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.4.0",
+    "typescript": "^4.5.2"
+  }
+}
