@@ -3,8 +3,8 @@
 var fs = require('fs');
 var input = fs.readFileSync('./src/day2/input.in').toString().split("\n").map(item => item.split(' ')).map(item => [item[0], parseInt(item[1], 10)]);
 
-let forward = 0;
-let depth = 0;
+var forward = 0;
+var depth = 0;
 
 input.forEach(element => {
   if(element[0] === 'forward') forward += element[1];
