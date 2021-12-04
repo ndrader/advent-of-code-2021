@@ -1,8 +1,6 @@
 var fs = require('fs');
 var input = fs.readFileSync('./src/day1/input.in').toString().split("\n").map(item => parseInt(item, 10));
 
-
-
 if(input.length < 4) console.log(0);
 
 let result2 = 0;
